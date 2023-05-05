@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C14C8C832A05140700954314 /* Majority in Frameworks */ = {isa = PBXBuildFile; productRef = C14C8C822A05140700954314 /* Majority */; };
+		C14C8C862A052F5100954314 /* Majority in Frameworks */ = {isa = PBXBuildFile; productRef = C14C8C852A052F5100954314 /* Majority */; };
 		C1C228C62A050F9300F45F8E /* MajorityDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C228C52A050F9300F45F8E /* MajorityDemoApp.swift */; };
 		C1C228C82A050F9300F45F8E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C228C72A050F9300F45F8E /* ContentView.swift */; };
 		C1C228CA2A050F9500F45F8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1C228C92A050F9500F45F8E /* Assets.xcassets */; };
@@ -15,7 +15,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C12599A62A0513CE000C99DB /* majority */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = majority; path = ../majority; sourceTree = "<group>"; };
 		C1C228C22A050F9300F45F8E /* MajorityDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MajorityDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1C228C52A050F9300F45F8E /* MajorityDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorityDemoApp.swift; sourceTree = "<group>"; };
 		C1C228C72A050F9300F45F8E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -28,7 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C14C8C832A05140700954314 /* Majority in Frameworks */,
+				C14C8C862A052F5100954314 /* Majority in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,7 +37,6 @@
 		C12599A52A0513CE000C99DB /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				C12599A62A0513CE000C99DB /* majority */,
 			);
 			name = Packages;
 			sourceTree = "<group>";
@@ -104,7 +102,7 @@
 			);
 			name = MajorityDemo;
 			packageProductDependencies = (
-				C14C8C822A05140700954314 /* Majority */,
+				C14C8C852A052F5100954314 /* Majority */,
 			);
 			productName = MajorityDemo;
 			productReference = C1C228C22A050F9300F45F8E /* MajorityDemo.app */;
@@ -135,6 +133,7 @@
 			);
 			mainGroup = C1C228B92A050F9300F45F8E;
 			packageReferences = (
+				C14C8C842A052F5100954314 /* XCRemoteSwiftPackageReference "majority" */,
 			);
 			productRefGroup = C1C228C32A050F9300F45F8E /* Products */;
 			projectDirPath = "";
@@ -363,9 +362,21 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		C14C8C842A052F5100954314 /* XCRemoteSwiftPackageReference "majority" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:kandaurovnet/majority.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
-		C14C8C822A05140700954314 /* Majority */ = {
+		C14C8C852A052F5100954314 /* Majority */ = {
 			isa = XCSwiftPackageProductDependency;
+			package = C14C8C842A052F5100954314 /* XCRemoteSwiftPackageReference "majority" */;
 			productName = Majority;
 		};
 /* End XCSwiftPackageProductDependency section */

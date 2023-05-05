@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "majority",
+      "kind" : "remoteSourceControl",
+      "location" : "git@github.com:kandaurovnet/majority.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "2f9ffb523ae16f1a6c3a69ae7d9004533ccea22c"
+      }
+    }
+  ],
+  "version" : 2
+}
